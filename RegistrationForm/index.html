@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="khaki" align="center">
+    <h1>Placement Registration Form</h1>
+    <hr color="black" size="3">
+
+    <form method="post" align="center" action="#">
+        <table align="center" cellspacing="4" cellpadding="10" bgcolor="lemonchiffon">
+
+            <tr>
+                <td><b>Full Name</b></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Phone Number</b></td>
+                <td><input type="tel" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Email</b></td>
+                <td><input type="email" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Address</b></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Other"> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Date Of Birth</b></td>
+                <td><input type="date" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Branch</b></td>
+                <td>
+                    <select name="Branch" required>
+                        <option value="">--Select Branch--</option>
+                        <option value="Computer Engineering">Computer Engineering</option>
+                        <option value="Information Technology">Information Technology</option>
+                        <option value="AI ML">AI & ML</option>
+                        <option value="EXTC">EXTC</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>CGPA</b></td>
+                <td><input type="number" step="0.01" min="0" max="10" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Preferred Job Role</b></td>
+                <td>
+                    <input type="checkbox" name="role" value="Developer"> Developer
+                    <input type="checkbox" name="role" value="Tester"> Tester
+                    <input type="checkbox" name="role" value="Analyst"> Analyst
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Resume Upload</b></td>
+                <td><input type="file" required></td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <p align="center"><b>Please verify all the details before submitting the form!</b></p>
+</body>
+</html>
