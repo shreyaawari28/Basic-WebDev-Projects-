@@ -1,0 +1,24 @@
+
+h2 {
+  color: red;
+  background-color: yellow;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  border: 4px double black;  
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 80%;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
