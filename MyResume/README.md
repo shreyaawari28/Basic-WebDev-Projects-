@@ -20,4 +20,4 @@ This project helped me practice:
 - Uploading and hosting a project on GitHub  
 
 ## Live Demo
-[View Project](https://shreyaawari28.github.io/Basic-WebDev-Projects-/Resume/)
+[View Project](https://shreyaawari28.github.io/Basic-WebDev-Projects-/MyResume/)
