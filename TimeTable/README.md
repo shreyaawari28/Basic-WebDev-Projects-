@@ -29,9 +29,7 @@ This project was created as part of my FSJP basic HTML practice to:
 ---
 
 ## Live Demo
-[View Project on GitHub Pages](https://<shreyaawari28>.github.io/Basic-WebDev-Projects/TimeTable/)  
-
-*(Replace <your-username> with your GitHub username once your GitHub Pages site is live.)*
+[View Project on GitHub Pages](https://shreyaawari28.github.io/Basic-WebDev-Projects/TimeTable/)  
 
 ---
 
