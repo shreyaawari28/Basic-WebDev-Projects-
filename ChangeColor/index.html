@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color</title>
+</head>
+<body background="khaki">
+    <h2 align="center">Change Background Color</h2>
+    <form align="center">
+    <input type="radio" name ="color" value="red" onclick="changeColor(this.value)">Red
+    <input type="radio" name ="color" value="blue" onclick="changeColor(this.value)">Blue
+    <input type="radio" name ="color" value="yellow" onclick="changeColor(this.value)">Yellow
+    </form>
+
+    <script>
+        function changeColor(color){
+            document.bgColor=color;
+        }
+    </script>
+</body>
+</html>
