@@ -29,7 +29,7 @@ This project helped me understand:
 ---
 
 ## Live Demo
-[View Project](https://shreyaawari28.github.io/Basic-WebDev-Projects-/ColorChangeRadio/)
+[View Project](https://shreyaawari28.github.io/Basic-WebDev-Projects-/ChangeColor/)
 
 
 
