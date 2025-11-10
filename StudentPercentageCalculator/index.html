@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Percentage Calculator</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        form {
+            background-color: white;
+            width: 350px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"], input[type="email"], input[type="number"] {
+            width: 95%;
+            padding: 6px;
+            margin: 6px 0;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        input[type="button"], input[type="reset"] {
+            width: 48%;
+            padding: 8px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="reset"] {
+            background-color: gray;
+        }
+
+        input[type="button"]:hover {
+            background-color: navy;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #505050;
+        }
+
+        #result {
+            margin-top: 15px;
+            color: darkgreen;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Student Percentage Calculator</h2>
+
+    <form>
+        <label>First Name:</label><br>
+        <input type="text" id="fname" placeholder="Enter first name" required><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" id="lname" placeholder="Enter last name" required><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email" placeholder="Enter email" required><br>
+
+        <label>Contact No:</label><br>
+        <input type="text" id="contact" placeholder="Enter contact number" maxlength="10" required><br>
+
+        <label>Marks 1:</label><br>
+        <input type="number" id="m1" placeholder="Enter marks out of 100" min="0" max="100" required><br>
+
+        <label>Marks 2:</label><br>
+        <input type="number" id="m2" placeholder="Enter marks out of 100" min="0" max="100" required><br>
+
+        <label>Marks 3:</label><br>
+        <input type="number" id="m3" placeholder="Enter marks out of 100" min="0" max="100" required><br><br>
+
+        <input type="button" value="Calculate Percentage" onclick="calc()">
+        <input type="reset" value="Reset"><br>
+
+        <p id="result"></p>
+    </form>
+
+    <script>
+        function calc() {
+            let m1 = parseFloat(document.getElementById("m1").value) || 0;
+            let m2 = parseFloat(document.getElementById("m2").value) || 0;
+            let m3 = parseFloat(document.getElementById("m3").value) || 0;
+
+            if (m1 > 100 || m2 > 100 || m3 > 100) {
+                document.getElementById("result").innerHTML = "Please enter marks out of 100 only!";
+                document.getElementById("result").style.color = "red";
+                return;
+            }
+
+            let total = m1 + m2 + m3;
+            let percent = (total / 3).toFixed(2);
+
+            document.getElementById("result").style.color = "darkgreen";
+            document.getElementById("result").innerHTML =
+                "Total Marks: " + total + "<br>Percentage: " + percent + "%";
+        }
+    </script>
+</body>
+</html>
+
