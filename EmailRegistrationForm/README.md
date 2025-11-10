@@ -31,7 +31,7 @@ This project helped me practice:
 ---
 
 ## Live Demo
-[View Project on GitHub Pages](https://shreyaawari28.github.io/Basic-WebDev-Projects-/EmailRegistrationForm/)
+[View Project](https://shreyaawari28.github.io/Basic-WebDev-Projects-/EmailRegistrationForm/)
 
 ---
 
