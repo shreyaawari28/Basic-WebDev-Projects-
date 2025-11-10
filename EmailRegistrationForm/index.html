@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email Registration Form</title>
+<style>
+body {
+  background-color: lightblue;
+  font-family: Arial;
+}
+form {
+  background-color: white;
+  width: 300px;     
+  margin: auto;
+  padding: 15px;
+  border: 2px ;
+  
+}
+h2 { text-align: center; color: blue; }
+label { font-weight: bold; }
+input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+}
+input[type=submit], input[type=reset] {
+  width: 48%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+input[type=reset] {
+  background-color: gray;
+}
+</style>
+</head>
+
+<body>
+<h2>Email Registration Form</h2>
+<form>
+  <label>Full Name:</label>
+  <input type="text" required>
+
+  <label>Email ID:</label>
+  <input type="email" required>
+
+  <label>Password:</label>
+  <input type="password" required>
+
+  <label>Confirm Password:</label>
+  <input type="password" required>
+
+  <label>Mobile No:</label>
+  <input type="text" maxlength="10">
+
+  <input type="submit" value="Register">
+  <input type="reset" value="Clear">
+</form>
+</body>
+</html>
