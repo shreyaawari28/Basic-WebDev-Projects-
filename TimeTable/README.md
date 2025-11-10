@@ -29,7 +29,7 @@ This project was created as part of my FSJP basic HTML practice to:
 ---
 
 ## Live Demo
-[View Project on GitHub Pages](https://shreyaawari28.github.io/Basic-WebDev-Projects/TimeTable/)  
+[Demo](https://shreyaawari28.github.io/Basic-WebDev-Projects/TimeTable/)  
 
 ---
 
