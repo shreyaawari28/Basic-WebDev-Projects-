@@ -27,7 +27,7 @@ This project is a simple **HTML, CSS, and JavaScript** based web application tha
 This project helped me practice:
 - Using JavaScript for basic arithmetic operations and DOM manipulation  
 - Handling input validation and error messages  
-- Applying CSS for form design and user-friendly presentation  
+- Applying CSS for form design and user-friendly presentation.
 
 ---
 
