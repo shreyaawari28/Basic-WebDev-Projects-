@@ -35,7 +35,7 @@ This project helped me practice:
 
 ---
 
-## Future Improvements
+## Future Improvement
 - Add external CSS for cleaner styling  
 - Include JavaScript for form validation  
 - Improve responsiveness for mobile screens
