@@ -13,25 +13,5 @@ These projects helped me:
 - Learn how HTML, CSS, and JS actually connect  
 - Build confidence before jumping into frameworks  
 
----
 
-## Tools I Used
-- HTML  
-- CSS  
-- JavaScript  
-- VS Code for editing  
-
----
-
-## What’s Next
-I plan to:
-- Add more creative mini-projects  
-- Improve the designs bit by bit  
-- Try hosting each one using **GitHub Pages** so anyone can view them live  
-
----
-
-Thanks for checking this out!  
-If you’re also learning web dev — trust me, even small projects like these teach you *a lot*.  
-
-⭐ Feel free to star or fork this repo if you find it relatable!
+Im making changes here
