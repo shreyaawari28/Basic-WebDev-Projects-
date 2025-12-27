@@ -22,8 +22,8 @@ The website represents a basic informational portal for a college, including cou
 ---
 
 ## 🚀 Demo
-🔗 **Live Demo (GitHub Pages):**  
-https://shreyaawari28.github.io/Basic-WebDev-Projects-/CollegeInfoPage/
+🔗 **Live Demo (https://shreyaawari28.github.io/Basic-WebDev-Projects-/CollegeInfoPage/):**  
+
 
 ---
 
