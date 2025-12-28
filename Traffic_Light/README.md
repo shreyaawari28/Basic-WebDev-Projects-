@@ -21,7 +21,7 @@ The project is meant for **practicing basic HTML structure and CSS styling**, wi
 ## 🚀 Demo
 🔗 [Live Demo](https://shreyaawari28.github.io/Basic-WebDev-Projects-/Traffic_Light/) 
 
-
+---
 
 ## 🧠 Features Implemented
 - Page heading using `<h1>`
