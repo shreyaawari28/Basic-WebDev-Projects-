@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+#first{
+    height: 350px;
+    width: 150px;
+    background-color: black;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 150px;
+   
+
+}
+#second
+{
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left:25px;
+    
+
+}
+
+#third{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-left:25px;
+    margin-top: 20px;
+}
+#fourth{
+    border-radius: 50%;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-left:25px;
+    margin-top: 20px;
+}
