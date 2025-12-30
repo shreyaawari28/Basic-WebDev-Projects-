@@ -57,13 +57,6 @@ These limitations are intentional for learning purposes.
 
 ---
 
-## 🚀 How to Run
-1. Open the HTML file in any web browser
-2. Ensure the CSS file is linked correctly
-3. The traffic light will render immediately
-
----
-
 ## 👨‍💻 Author
 **Shreya Awari**  
 📧 Email: shreyaawari31@gmail.com  
