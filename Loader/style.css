@@ -1,0 +1,23 @@
+#loader{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+    border: 20px solid #cfcfcf;
+     border-right: 20px solid black;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    animation: spin 1s ease-in-out  0s infinite normal;
+}
+
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
