@@ -5,11 +5,12 @@
 
 This project is a **practice implementation of CSS Flexbox**, created using **HTML and CSS**.
 
-In this project, I learned Flexbox, which is one of the most important layout modules in CSS.  
-I created a **navigation bar** and used Flexbox properties to align navigation items horizontally and space them evenly.  
-I also created two `<div>` elements and used Flexbox to **center one div inside another** both horizontally and vertically.
+In this project, I learned **Flexbox**, which is one of the most important topics in CSS.  
+I created a **navigation bar** and used Flexbox properties to align the navigation items horizontally and space them evenly.
 
-The project focuses on understanding how Flexbox works for layout alignment and positioning, without using JavaScript.
+I also created two `<div>` elements and used Flexbox on the outer div to **align the inner div at the center**, both horizontally and vertically.
+
+The project focuses on practicing layout alignment using Flexbox without using JavaScript.
 
 </details>
 
@@ -20,9 +21,9 @@ The project focuses on understanding how Flexbox works for layout alignment and 
 
 - Practice HTML page structure  
 - Learn CSS Flexbox fundamentals  
-- Understand the concept of a flex container  
-- Use Flexbox for layout alignment  
-- Create a navigation bar using Flexbox  
+- Understand flex containers and flex items  
+- Use Flexbox to create a navigation bar  
+- Learn alignment using `justify-content` and `align-items`  
 - Center one div inside another using Flexbox  
 
 </details>
@@ -32,7 +33,7 @@ The project focuses on understanding how Flexbox works for layout alignment and 
 <details>
 <summary><strong>🚀 Demo</strong></summary>
 
-🔗 Live Demo
+🔗 https://shreyaawari28.github.io/Basic-WebDev-Projects-/Practice_FlexBox/
 
 </details>
 
@@ -42,14 +43,14 @@ The project focuses on understanding how Flexbox works for layout alignment and 
 <summary><strong>🧠 Features Implemented</strong></summary>
 
 - Navigation bar created using `<ul>` and `<li>`  
-- Flexbox applied to the navigation bar using `display: flex`  
+- Flexbox applied to the navigation bar  
 - Horizontal alignment of navigation items  
 - Even spacing between items using `justify-content`  
-- Removal of default list styling  
-- Outer container converted into a flex container  
+- Default list styling removed  
+- Outer div converted into a flex container  
 - Inner div centered using:
-  - `justify-content: center`
-  - `align-items: center`
+  - `justify-content: center`  
+  - `align-items: center`  
 
 </details>
 
@@ -58,11 +59,11 @@ The project focuses on understanding how Flexbox works for layout alignment and 
 <details>
 <summary><strong>🧪 How It Works</strong></summary>
 
-- The navigation bar is styled as a flex container, allowing menu items to align in a single row.
+- The navigation bar is treated as a flex container, allowing menu items to align in a single row.
 - Flexbox properties control spacing and alignment of navigation links.
-- The outer div uses Flexbox to control alignment.
-- The inner div is placed exactly at the center using Flexbox alignment properties.
-- All layout behavior is handled purely using CSS.
+- The outer div uses Flexbox for layout control.
+- The inner div is centered both horizontally and vertically using Flexbox.
+- All layout behavior is handled using CSS only.
 
 </details>
 
@@ -73,7 +74,7 @@ The project focuses on understanding how Flexbox works for layout alignment and 
 
 - No JavaScript functionality  
 - No responsiveness for different screen sizes  
-- Static layout focused only on learning Flexbox concepts  
+- Static layout focused only on learning Flexbox  
 - Minimal styling, focused on fundamentals  
 
 These limitations are intentional for learning purposes.
@@ -98,7 +99,6 @@ These limitations are intentional for learning purposes.
 
 Shreya Awari  
 📧 Email: shreyaawari31@gmail.com  
-🌐 GitHub: https://github.com/shreyaawari28
+🌐 GitHub: https://github.com/shreyaawari28  
 
 </details>
-
