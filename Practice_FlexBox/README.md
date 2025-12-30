@@ -23,8 +23,7 @@ The project focuses on understanding layout alignment using Flexbox without usin
 ---
 
 ## 🚀 Demo
-
-🔗 [Live Demo](https://shreyaawari28.github.io/Basic-WebDev-Projects-/Practice_FlexBox/) 
+🔗 [Live Demo](https://shreyaawari28.github.io/Basic-WebDev-Projects-/Practice_FlexBox/)
 
 ---
 
@@ -43,4 +42,26 @@ The project focuses on understanding layout alignment using Flexbox without usin
 
 ## 🧪 How It Works
 The navigation bar is treated as a flex container, which allows all menu items to align in a single row.  
-Flexbox properties control the spac
+Flexbox properties control the spacing and alignment of the navigation items.
+
+The outer div is also converted into a flex container.  
+Using Flexbox alignment properties, the inner div is placed exactly at the center of the outer div.
+
+All layout behavior is handled using CSS only.
+
+---
+
+## ⚠️ Limitations
+- No JavaScript functionality  
+- No responsive design for different screen sizes  
+- Static layout focused only on learning Flexbox  
+- Minimal styling, focused on fundamentals  
+
+These limitations are intentional for learning purposes.
+
+---
+
+## 👨‍💻 Author
+**Shreya Awari**  
+📧 Email: shreyaawari31@gmail.com  
+🌐 GitHub: https://github.com/shreyaawari28  
