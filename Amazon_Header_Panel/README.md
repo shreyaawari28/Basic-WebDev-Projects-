@@ -22,7 +22,7 @@ The project focuses on mastering **Flexbox**, **icons using Font Awesome**, **ho
 ---
 
 ## 🚀 Demo
-🔗 [Live Demo](https://shreyaawari28.github.io/Basic-WebDev-Projects-/Amazon_Header_Panel/)
+🔗 [Live Demo](https://shreyaawari28.github.io/Basic-WebDev-Projects-/Amazon_Header_Panel)
 
 ---
 
